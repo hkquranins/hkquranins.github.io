@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    /* overflow-x: hidden; */
+}
+
+body {
+    overflow: auto;
+    /* -webkit-overflow-scrolling: touch; */
+
+}
+
+
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 5.2rem;
+    font-weight: 600;
+    color: var(--primary-text-black);
+}
+
+:root {
+    --primary-color: #1C1E27;
+    --primary-theme: #9d2035;
+    --primary-text-black: #000000;
+    --primary-text-White: #fff;
+    --primary-thumb-color: #1a1b1e;
+    --primary-color: #1C1E27;
+    --primary-color: #1C1E27;
+}
+
+.primary-btn {
+    border: 0px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    background-color: var(--primary-theme);
+    width: fit-content;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.fa-bars {
+    color: var(--primary-theme);
+    font-size: 26px;
+    display: none;
+}
+
+
+
+
+.whatsapp-Icon-Fix {
+    display: flex;
+    width: fit-content;
+    padding: 10px;
+    font-size: 24px;
+    position: fixed;
+    z-index: 10;
+    right: 25px;
+    bottom: 35px;
+    animation: mover .7s infinite alternate;
+}
+
+#main-navbar {
+    display: none;
+}
+
+#active-1 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px !important;
+}
+
+#active-1 li a {
+    color: black !important;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-left: 5px;
+    text-transform: capitalize;
+}
+
+#toogle-bars {
+    box-shadow: none;
+    outline: none;
+}
+
+
+
+
+
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 95%;
+        padding: 4px 20px;
+    }
+
+    .quran-img {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 1130px) {
+    .course-card p {
+        font-size: 2rem;
+    }
+
+    .Screening p {
+        width: 100% !important;
+    }
+
+    .What-we-offer p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .course-card-main {
+        /* display: none; */
+        width: 45%;
+        /* or whatever width you want when the screen is less than 992px */
+
+    }
+
+    .quran-img {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 856px) {
+    .menu {
+        display: none !important;
+    }
+
+    #bars {
+        display: block !important;
+    }
+
+    #header {
+        display: none;
+    }
+
+    #main-navbar {
+        display: flex;
+        /* background-color: wheat !important; */
+    }
+
+}
+
+
+
+@media (max-width: 785px) {
+
+
+.All-page-img-set {
+    min-height: 45vh;
+}
+
+    .logo img {
+        width: 150px;
+    }
+
+    .primary-btn {
+        padding: 7px 15px;
+    }
+
+    .section-1 {
+        margin-top: 10px;
+    }
+
+    .row-1 {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .course-card-main {
+        width: 100%;
+    }
+
+    .inner-faq-Page {
+        padding: 10PX 0px;
+    }
+ .footer_Links img {
+        width: 170px !important;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .row-1 {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    h1 {
+        font-size: 4.4rem !important;
+
+    }
+
+    .What-we-offer h1 {
+        text-align: center;
+    }
+
+    .What-we-offer p {
+        font-size: 1.6rem;
+    }
+
+
+}
+
+@media (max-width: 425px) {
+
+    .container {
+        padding: 4px 7px;
+    }
+
+    .logo img {
+        width: 140px;
+    }
+
+    .Main-goal {
+        padding: 0px;
+    }
+
+    .Educational {
+        padding: 0px;
+    }
+
+    .qari-goals {
+        font-size: 1.8rem !important;
+    }
+
+    .Expert-Qaris h3 {
+        font-size: 3.3rem;
+        line-height: 46px;
+        /* font-weight: 900 !important; */
+    }
+
+    .quran-img {
+        width: 100%;
+    }
+
+    .beautifull-images {
+        padding: 4px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .What-we-offer h1 {
+        font-size: 2.8rem !important;
+    }
+}

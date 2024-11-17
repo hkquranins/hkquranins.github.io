@@ -1,0 +1,352 @@
+.main-couese {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 40px 0px;
+    /* background-color: aqua; */
+}
+
+.main-couese .course-details {
+    /* background-color:lawngreen; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.course-details h3 {
+    font-size: 2.5rem;
+    margin: 10px 0px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.course-details .course-row {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+
+.course-row .left-master-class {
+    width: 730px;
+    padding: 10px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 20px;
+}
+
+.left-master-class img {
+    width: 100%;
+}
+
+
+.left-master-class .course-info {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #cdcfd5;
+}
+
+.course-info .course-info-btn {
+    background-color: transparent;
+    padding: 12px;
+    border: 0;
+    color: rgb(63, 63, 63);
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.course-info-btn.info-btn-active {
+    border-bottom: 2px solid var(--primary-theme);
+    font-weight: 600;
+    color: var(--primary-theme);
+
+}
+
+
+.left-master-class .About-course {
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 4px;
+    gap: 9px;
+}
+
+
+.About-course h4 {
+    font-size: 2.1rem !important;
+    font-weight: 600;
+}
+
+.About-course h4,
+.course-content h4 {
+    font-size: 1.9rem;
+}
+
+.About-course h5 {
+    font-size: 1.6rem;
+    padding: 5px 0;
+    color: var(--Course-Outline-color);
+}
+
+
+.Objective {
+    width: 100%;
+    /* background-color: blueviolet; */
+    max-height: 3.5vh;
+    overflow: hidden;
+    margin-top: 3px;
+    transition: max-height 2s;
+
+}
+
+.obj-active {
+    max-height: fit-content;
+    /* background-color: a?qua; */
+    color: var(--Course-Outline-color);
+
+}
+
+.Objective h5,
+.Objective p {
+    color: var(--primary-text-color);
+}
+
+.Objective p {
+    font-size: 1.5rem;
+    line-height: 24px;
+}
+
+.Show_more {
+    /* background-color: lime; */
+    width: fit-content;
+    transition: .3s all;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.Show_more:hover {
+    color: var(--primary-theme);
+}
+
+#Show_more_2 {
+    display: none;
+}
+
+
+.course-content {
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -10px;
+}
+
+
+.main-according {
+    /* background-color: violet; */
+    border: 1px solid #cdcfd5;
+    border-radius: 6px;
+    padding: 10px 2px;
+    width: 100%;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: burlywood; */
+    padding: 0px 5px;
+    cursor: pointer;
+    transition: all .3s;
+    align-items: center;
+    margin: 6px;
+}
+
+.question h5 {
+    font-size: 15px;
+}
+
+.question:hover {
+    color: var(--primary-btn-color);
+}
+
+.question .down-word-icon {
+    margin-right: 20px;
+    font-size: 17px;
+    transition: transform .3s;
+}
+
+.down-word-icon.icon-Active {
+    transform: rotate(180deg);
+}
+
+
+.Answer {
+    color: #666;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s;
+    padding: 0 9px;
+}
+
+.Answer.show-answer {
+    max-height: fit-content;
+}
+
+
+.Answer .Welcome-Class {
+    width: 100%;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.Welcome-Class .youtube-video {
+    display: flex;
+    /* background-color: #666; */
+    width: fit-content;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.youtube-video a {
+    text-decoration: none;
+    color: #666;
+}
+
+.video-time {
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+
+
+.right-Master-Class {
+    width: 350px;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.inner-beginner {
+    /* background-color: rgb(253, 252, 252); */
+    padding: 30PX;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+.viwe-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.viwe-card a {
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 2rem;
+    color: var(--primary-theme);
+    border: 2px solid var(--primary-theme);
+    background-color: transparent;
+    transition: all .5s;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+.viwe-card a:hover {
+    background-image: linear-gradient(to right, #832232, #DC143C, #9d2035);
+    color: #fff !important;
+}
+
+
+.inner-beginner .beginner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.beginner .leavel-beginner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 2px;
+}
+
+
+
+/*              responsive site */
+
+
+@media (max-width:992px) {
+    .course-row{
+        flex-direction: column;
+        /* background-color: red; */
+        align-items: center;
+    }
+    .left-master-class{
+        width: 90% !important;
+    }
+    .right-Master-Class{
+        width: 90% !important;
+    }
+    .course-details h3{
+        margin-left: 55px;
+    }
+}
+
+@media (max-width:781px) {
+    .course-row{
+        flex-direction: column;
+        /* background-color: red; */
+        align-items: center;
+    }
+    .left-master-class{
+        width: 100% !important;
+    }
+    .right-Master-Class{
+        width: 100% !important;
+    }
+    .course-details h3{
+        margin-left: 10px;
+    }
+}
+@media (max-width:500px) {
+
+    .course-details h3{
+        font-size:2rem;
+        margin-left: 0px;
+    }
+}

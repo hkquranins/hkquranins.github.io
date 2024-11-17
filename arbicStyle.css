@@ -1,0 +1,604 @@
+.container {
+    overflow-Y: hidden;
+    scrollbar-width: none;
+        background-color: transparent !important;
+
+}
+
+#header {
+    /* height: 90px; */
+    padding: 4px 0px;
+    position: relative;
+    border-bottom: 1px solid #d6d6d6 !important;
+}
+
+nav {
+        background-color: transparent !important;
+
+
+    padding: 5px;
+
+}
+
+
+
+.logo {
+    width: 150px !important;
+    cursor: pointer;
+    height: auto;
+
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.Main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.Main-navbar .menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.unoder-list {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.unoder-list li {
+    list-style: none;
+    padding: 8px;
+    /* background-color: bisque; */
+}
+
+.unoder-list li a {
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    position: relative;
+    padding: 0 3px;
+    /* background-color: aqua; */
+    font-weight: 500 !important;
+    /* font-family: ; */
+    font-family: "Poppins", sans-serif;
+
+}
+
+.unoder-list li a::after {
+    content: "";
+    position: absolute;
+    background-color: var(--primary-theme);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    border-radius: 4px;
+    transition: all .4s;
+}
+
+.unoder-list li a:hover:after {
+    width: 100%;
+}
+
+
+.section-1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+
+.Expert-Qaris {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Expert-Qaris h3 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.7rem;
+    line-height: 61px;
+    color: #000;
+}
+
+.Expert-Qaris p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.3rem;
+    line-height: 38px;
+}
+
+.beautifull-images {
+    width: 100%;
+    /* background-color: violet; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quran-img {
+    width: 520px;
+    height: auto;
+
+}
+
+.quran-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.What-we-offer {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    color: #000;
+}
+
+.What-we-offer p {
+    font-size: 2.2rem;
+    width: 500px;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.Screening {
+    text-align: center;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.Screening h3 {
+    font-size: 2.3rem;
+}
+
+.Screening p {
+    /* background-color: pink; */
+    width: 320px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.row-1 {
+    /* background-color: red; */
+    padding: 20px 10px;
+    display: flex;
+    gap: 20px;
+
+    /* flex-wrap: wrap; */
+}
+
+
+.course-card {
+    margin-top: 20px;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px 7px rgba(39, 57.0000000000001, 101.00000000000001, 0.1);
+    border-radius: 8px;
+}
+
+.course-card-main {
+    width: 31%;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.course-card p {
+    margin-top: 5px;
+    padding: 25px 8px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: var(--primary-thumb-color);
+    border-bottom: 1px solid #ccc;
+}
+
+.price-master {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 8px;
+
+}
+
+.price-master h3 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.add-to-card {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid var(--primary-theme);
+    padding: 8px 12px;
+    gap: 8px;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    color: var(--primary-theme);
+    font-weight: 500;
+}
+
+.add-to-card a {
+    text-decoration: none;
+    color: var(--primary-theme);
+    font-weight: 600 !important;
+}
+
+.section-2 {
+    width: 100%;
+    /* background-color: blueviolet; */
+    padding: 10px;
+
+}
+
+
+
+
+/*                                                      faq */
+
+.main-Faq {
+    /* background-color: rgb(182, 182, 182); */
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+
+
+.main-according {
+    /* background-color: violet; */
+    border: 1px solid #cdcfd5;
+    border-radius: 6px;
+    padding: 0px 2px !important;
+    width: 100%;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: burlywood; */
+    padding: 0px 5px;
+    cursor: pointer;
+    transition: all .3s;
+    align-items: center;
+    /* margin: 6px; */
+    margin-top: 15px !important;
+}
+
+.question h5 {
+    font-size: 15px;
+}
+
+.question:hover {
+    color: var(--primary-theme);
+}
+
+.question .down-word-icon {
+    margin-right: 20px;
+    font-size: 17px;
+    transition: transform .3s;
+}
+
+.down-word-icon.icon-Active {
+    transform: rotate(180deg);
+}
+
+
+.Answer {
+    color: #666;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s;
+    padding: 0 9px;
+}
+
+.Answer.show-answer {
+    max-height: fit-content;
+}
+
+
+.Answer .Welcome-Class {
+    width: 100%;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+
+.main-Faq .primary-btn {
+    margin-top: 25px;
+    padding: 10px 20px;
+}
+
+.primary-btn {
+    background-image: linear-gradient(to top, #DC143C, #9d2035, #832232);
+    transition: 2s all;
+}
+
+.primary-btn:hover {
+    background-image: linear-gradient(to right, #832232, #DC143C, #9d2035);
+    color: #fff !important;
+
+}
+
+/*                                   footer */
+
+
+footer {
+    width: 100%;
+    /* background-color: var(--primary-theme); */
+    padding-top: 30px;
+    background: linear-gradient(#9d2035c0, #9d2035b4), url("images/pexels-haleyve-2087387.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.footer-1 {
+    /* background-color: #9d203563; */
+    padding-top: 10px;
+    color: #fff;
+}
+
+.footer_Links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer_Links img {
+    width: 80%;
+    filter: saturate(0) invert(1);
+}
+
+.footer_Links p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.three-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.three-icons a {
+    text-decoration: none;
+}
+
+.follow-Us {
+    font-size: 2.3rem;
+}
+
+.book-purchase {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.book-purchase li {
+    list-style: none;
+}
+
+.book-purchase .adders-contact {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.book-purchase .adders-contact a {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+
+
+
+
+/*              page 2 start course-page */
+
+
+.All-page-img-set {
+    min-height: 70vh;
+    /* background: url("RZI.jpg"); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.All-page-img-set h1 {
+    color: #fff !important;
+    font-size: 6rem;
+    text-transform: capitalize;
+}
+
+.explore-Now {
+    padding: 60px 0px;
+}
+
+.course-page {
+    background-image: url(images/RZI.jpg);
+}
+
+/*              page 3 start course-page */
+
+
+
+.Our-Goal {
+
+    background: linear-gradient(#0000004d, #00000069), url("images/mosque-6231915_960_720.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.Main-goal {
+    width: 100%;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+}
+
+
+.Our_Goals {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 5px;
+}
+
+.Our_Goals h2 {
+    width: 100%;
+    /* background-color: aqua; */
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+
+.Educational {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.Educational .qari-goals {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.Educational p {
+    font-size: 1.6rem;
+    line-height: 24px;
+    padding: 5px;
+    color: var(--primary-text-color);
+}
+
+
+/*      page 3 start course-page */
+
+.FAQ-page {
+    background: linear-gradient(#00000000, #000000a4), url("images/alhambra-179171_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.inner-faq-Page {
+    padding: 50PX 0px;
+}
+
+/*              page 4 start course-page */
+
+.contact-page {
+    background: linear-gradient(#0000006c, #00000000), url("images/contact_bg-imag.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*              page 2 start course-page */
+/*              page 2 start course-page */
+/*              page 2 start course-page */
+/*              page 2 start course-page */
+
+.Read-More-course {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+.hassan img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.overlay-img_contact {
+    min-height: 70vh;
+    background-color: red;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-img_contact {
+    height: 70vh;
+    background-color: red;
+    padding: 10px;
+}
